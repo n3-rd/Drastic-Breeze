@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-display {
+  font-family: "Marcellus", serif;
+}
+
+.font-black {
+  font-family: "Work Sans", sans-serif;
+}
+
+marquee {
+  -webkit-animation: marquee 15s linear infinite;
+          animation: marquee 15s linear infinite;
+}
+
+@-webkit-keyframes infinite-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes infinite-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}/*# sourceMappingURL=style.css.map */
